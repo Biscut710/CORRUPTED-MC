@@ -13,6 +13,10 @@
  */
 package user.biscut710.corrupted;
 
+import user.biscut710.corrupted.init.CorruptedMcModTabs;
+import user.biscut710.corrupted.init.CorruptedMcModItems;
+import user.biscut710.corrupted.init.CorruptedMcModBlocks;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -40,8 +44,10 @@ public class CorruptedMcMod {
 	private static int messageID = 0;
 
 	public CorruptedMcMod() {
-
+		CorruptedMcModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		CorruptedMcModBlocks.REGISTRY.register(bus);
+		CorruptedMcModItems.REGISTRY.register(bus);
 
 	}
 

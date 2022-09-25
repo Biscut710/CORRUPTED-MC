@@ -1,9 +1,29 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Corruped",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruped"
+    },
+    {
+      "name": "TrueResrved6",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_resrved_6"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabcorruped": "Corruped",
+      "block.corrupted_mc.true_resrved_6": "True Resrved 6"
+    }
   },
   "foldersRoot": {
     "name": "~",

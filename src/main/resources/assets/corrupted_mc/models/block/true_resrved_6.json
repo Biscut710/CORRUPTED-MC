@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "corrupted_mc:blocks/sr6b",
+    "up": "corrupted_mc:blocks/sr6b",
+    "north": "corrupted_mc:blocks/sr6b",
+    "east": "corrupted_mc:blocks/sr6b",
+    "south": "corrupted_mc:blocks/sr6b",
+    "west": "corrupted_mc:blocks/sr6b",
+    "particle": "corrupted_mc:blocks/sr6b"
+  }
+}
