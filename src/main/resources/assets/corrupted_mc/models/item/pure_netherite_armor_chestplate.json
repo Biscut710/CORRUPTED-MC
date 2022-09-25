@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "corrupted_mc:items/purenetherite_body"
+  }
+}
