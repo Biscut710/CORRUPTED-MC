@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "corrupted_mc:blocks/purenetherite_ore_block",
-    "particle": "corrupted_mc:blocks/purenetherite_ore_block"
-  }
-}

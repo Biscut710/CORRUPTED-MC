@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 2.0999999999999996,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "corrupted_mc:pure_netherite_ore"
-  },
-  "result": "corrupted_mc:pure_netherite"
-}

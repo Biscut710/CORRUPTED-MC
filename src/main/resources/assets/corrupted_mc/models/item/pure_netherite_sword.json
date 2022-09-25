@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "corrupted_mc:items/purenetherite_sword"
-  }
-}
