@@ -15,6 +15,7 @@ package user.biscut710.corrupted;
 
 import user.biscut710.corrupted.init.CorruptedMcModTabs;
 import user.biscut710.corrupted.init.CorruptedMcModItems;
+import user.biscut710.corrupted.init.CorruptedMcModFeatures;
 import user.biscut710.corrupted.init.CorruptedMcModBlocks;
 
 import org.apache.logging.log4j.Logger;
@@ -48,6 +49,8 @@ public class CorruptedMcMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		CorruptedMcModBlocks.REGISTRY.register(bus);
 		CorruptedMcModItems.REGISTRY.register(bus);
+
+		CorruptedMcModFeatures.REGISTRY.register(bus);
 
 	}
 

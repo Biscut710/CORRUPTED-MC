@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "corrupted_mc:true_resrved_6",
-    "corrupted_mc:glowing_obsidian"
+    "corrupted_mc:glowing_obsidian",
+    "corrupted_mc:red_crystal_ore",
+    "corrupted_mc:red_crystal_block"
   ]
 }
