@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "corrupted_mc:pure_netherite"
+    },
+    "1": {
+      "item": "corrupted_mc:pure_netherite"
+    },
+    "2": {
+      "item": "corrupted_mc:pure_netherite"
+    },
+    "3": {
+      "item": "corrupted_mc:pure_netherite"
+    },
+    "4": {
+      "item": "corrupted_mc:pure_netherite"
+    },
+    "5": {
+      "item": "corrupted_mc:pure_netherite"
+    },
+    "6": {
+      "item": "corrupted_mc:pure_netherite"
+    },
+    "7": {
+      "item": "corrupted_mc:pure_netherite"
+    },
+    "8": {
+      "item": "corrupted_mc:pure_netherite"
+    }
+  },
+  "result": {
+    "item": "corrupted_mc:pure_netherite_block",
+    "count": 1
+  }
+}

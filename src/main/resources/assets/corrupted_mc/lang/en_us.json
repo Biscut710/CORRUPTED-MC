@@ -1,8 +1,20 @@
 {
+  "block.corrupted_mc.true_resrved_6": "True Resrved 6",
+  "block.corrupted_mc.pure_netherite_block": "Block of PureNetherite",
+  "item.corrupted_mc.pure_netherite_shovel": "PureNetherite Shovel",
+  "item.corrupted_mc.pure_netherite_armor_chestplate": "PureNetherite Chestplate",
+  "item.corrupted_mc.pure_netherite_armor_boots": "PureNetherite Boots",
+  "block.corrupted_mc.red_crystal_ore": "RedCrystal Ore",
+  "block.corrupted_mc.pure_netherite_ore": "PureNetherite Ore",
+  "item.corrupted_mc.pure_netherite_axe": "PureNetherite Axe",
   "item.corrupted_mc.red_crystal": "RedCrystal",
   "itemGroup.tabcorruped": "Corruped",
-  "block.corrupted_mc.true_resrved_6": "True Resrved 6",
+  "item.corrupted_mc.pure_netherite_armor_leggings": "PureNetherite Leggings",
+  "item.corrupted_mc.pure_netherite_sword": "PureNetherite Sword",
+  "item.corrupted_mc.pure_netherite_pickaxe": "PureNetherite Pickaxe",
+  "item.corrupted_mc.pure_netherite_armor_helmet": "PureNetherite Helmet",
+  "item.corrupted_mc.pure_netherite": "PureNetherite",
   "block.corrupted_mc.red_crystal_block": "Block of RedCrystal",
   "block.corrupted_mc.glowing_obsidian": "Glowing Obsidian",
-  "block.corrupted_mc.red_crystal_ore": "RedCrystal Ore"
+  "item.corrupted_mc.pure_netherite_hoe": "PureNetherite Hoe"
 }

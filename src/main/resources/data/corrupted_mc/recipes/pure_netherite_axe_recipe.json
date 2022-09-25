@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "corrupted_mc:pure_netherite"
+    },
+    "1": {
+      "item": "corrupted_mc:pure_netherite"
+    },
+    "2": {
+      "item": "corrupted_mc:pure_netherite"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "corrupted_mc:pure_netherite_axe",
+    "count": 1
+  }
+}
