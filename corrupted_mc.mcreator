@@ -23,15 +23,66 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_obsidian"
+    },
+    {
+      "name": "RedCrystal",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_crystal"
+    },
+    {
+      "name": "RedCrystalOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_crystal_ore"
+    },
+    {
+      "name": "RedCrystalBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_crystal_block"
+    },
+    {
+      "name": "RedCrystalOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_crystal_ore_block_recipe"
+    },
+    {
+      "name": "RedCrystalBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_crystal_block_ore_recipe"
+    },
+    {
+      "name": "RedCrystalOreSmelting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_crystal_ore_smelting"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.corrupted_mc.red_crystal": "RedCrystal",
       "itemGroup.tabcorruped": "Corruped",
       "block.corrupted_mc.true_resrved_6": "True Resrved 6",
-      "block.corrupted_mc.glowing_obsidian": "Glowing Obsidian"
+      "block.corrupted_mc.red_crystal_block": "Block of RedCrystal",
+      "block.corrupted_mc.glowing_obsidian": "Glowing Obsidian",
+      "block.corrupted_mc.red_crystal_ore": "RedCrystal Ore"
     }
   },
   "foldersRoot": {

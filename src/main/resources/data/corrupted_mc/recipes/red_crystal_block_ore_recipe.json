@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "corrupted_mc:red_crystal_block"
+    }
+  ],
+  "result": {
+    "item": "corrupted_mc:red_crystal",
+    "count": 9
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "corrupted_mc:red_crystal_ore"
+  },
+  "result": "corrupted_mc:red_crystal"
+}
