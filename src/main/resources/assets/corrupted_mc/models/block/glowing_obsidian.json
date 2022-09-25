@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "corrupted_mc:blocks/glowing-obsidean",
+    "up": "corrupted_mc:blocks/glowing-obsidean",
+    "north": "corrupted_mc:blocks/glowing-obsidean",
+    "east": "corrupted_mc:blocks/glowing-obsidean",
+    "south": "corrupted_mc:blocks/glowing-obsidean",
+    "west": "corrupted_mc:blocks/glowing-obsidean",
+    "particle": "corrupted_mc:blocks/glowing-obsidean"
+  }
+}
