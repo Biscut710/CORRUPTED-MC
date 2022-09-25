@@ -1,0 +1,44 @@
+{
+  "mod_elements": [
+    {
+      "name": "Corrupted",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabcorrupted": "Corrupted"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "corrupted_mc",
+    "modName": "CORRUPTED",
+    "version": "Dev Alpha 0.0.1",
+    "description": "Reality is breaking! Adventure across dimensions to save the worl!",
+    "author": "Biscut710, Developer2704",
+    "websiteURL": "https://google.com",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "user.biscut710.corrupted",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

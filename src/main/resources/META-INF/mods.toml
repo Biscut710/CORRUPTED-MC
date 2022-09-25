@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="corrupted_mc"
+version="0.0.1"
+displayName="CORRUPTED"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://google.com"
+logoFile="logo.png"
+authors="Biscut710, Developer2704"
+description='''
+Reality is breaking! Adventure across dimensions to save the worl!
+'''
+
+[[dependencies.corrupted_mc]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
