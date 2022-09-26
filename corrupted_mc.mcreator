@@ -97,14 +97,6 @@
       "registry_name": "pure_netherite_block_ore_recipe"
     },
     {
-      "name": "PureNetheriteOreSmelting",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pure_netherite_ore_smelting"
-    },
-    {
       "name": "PureNetheritePickaxe",
       "type": "tool",
       "sortid": 15,
@@ -229,6 +221,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_armor_boots_recipe"
+    },
+    {
+      "name": "GOR",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gor"
     }
   ],
   "variable_elements": [],
