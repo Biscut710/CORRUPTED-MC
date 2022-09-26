@@ -235,8 +235,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.corrupted_mc.pure_netherite_ingot": "Pure Netherite",
       "block.corrupted_mc.true_resrved_6": "True Resrved 6",
+      "item.corrupted_mc.pure_netherite_ingot": "Pure Netherite",
       "block.corrupted_mc.pure_netherite_block": "Block of Pure Netherite",
       "item.corrupted_mc.pure_netherite_shovel": "Pure Netherite Shovel",
       "item.corrupted_mc.pure_netherite_armor_chestplate": "Pure Netherite Chestplate",

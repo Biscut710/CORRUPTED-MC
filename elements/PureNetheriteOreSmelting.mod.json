@@ -9,10 +9,10 @@
     "group": "",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "Items.NETHERITE_INGOT"
+      "value": "Items.LAVA_BUCKET"
     },
     "smithingInputAdditionStack": {
-      "value": "Items.LAVA_BUCKET"
+      "value": "Items.NETHERITE_INGOT"
     },
     "smithingReturnStack": {
       "value": "CUSTOM:PureNetheriteIngot"

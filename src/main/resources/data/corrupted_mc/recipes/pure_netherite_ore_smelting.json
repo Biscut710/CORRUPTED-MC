@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:netherite_ingot"
+    "item": "minecraft:lava_bucket"
   },
   "addition": {
-    "item": "minecraft:lava_bucket"
+    "item": "minecraft:netherite_ingot"
   },
   "result": {
     "item": "corrupted_mc:pure_netherite_ingot"
