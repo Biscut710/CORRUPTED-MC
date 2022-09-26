@@ -18,6 +18,7 @@ import user.biscut710.corrupted.init.CorruptedMcModItems;
 import user.biscut710.corrupted.init.CorruptedMcModFluids;
 import user.biscut710.corrupted.init.CorruptedMcModFeatures;
 import user.biscut710.corrupted.init.CorruptedMcModBlocks;
+import user.biscut710.corrupted.init.CorruptedMcModBiomes;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -53,6 +54,8 @@ public class CorruptedMcMod {
 
 		CorruptedMcModFeatures.REGISTRY.register(bus);
 		CorruptedMcModFluids.REGISTRY.register(bus);
+
+		CorruptedMcModBiomes.REGISTRY.register(bus);
 
 	}
 

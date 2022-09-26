@@ -10,6 +10,7 @@ import user.biscut710.corrupted.block.RedCrystalBlockBlock;
 import user.biscut710.corrupted.block.PureNetheriteBlockBlock;
 import user.biscut710.corrupted.block.LGlOWINGOBIBlock;
 import user.biscut710.corrupted.block.GlowingObsidianBlock;
+import user.biscut710.corrupted.block.GLOWINGOBIDIMPortalBlock;
 import user.biscut710.corrupted.CorruptedMcMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -26,4 +27,5 @@ public class CorruptedMcModBlocks {
 	public static final RegistryObject<Block> RED_CRYSTAL_BLOCK = REGISTRY.register("red_crystal_block", () -> new RedCrystalBlockBlock());
 	public static final RegistryObject<Block> PURE_NETHERITE_BLOCK = REGISTRY.register("pure_netherite_block", () -> new PureNetheriteBlockBlock());
 	public static final RegistryObject<Block> L_GL_OWINGOBI = REGISTRY.register("l_gl_owingobi", () -> new LGlOWINGOBIBlock());
+	public static final RegistryObject<Block> GLOWINGOBIDIM_PORTAL = REGISTRY.register("glowingobidim_portal", () -> new GLOWINGOBIDIMPortalBlock());
 }

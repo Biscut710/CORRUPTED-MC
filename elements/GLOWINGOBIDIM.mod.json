@@ -1,0 +1,42 @@
+{
+  "_fv": 33,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:GlowingObsidianFieldLands"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:GlowingObsidian"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:GlowingObsidian"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": true,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:GlowingObsidian"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 5,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Glowing Obsidian Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:Corruped"
+    },
+    "texture": "ingiterobi",
+    "portalTexture": "glowing-obsidean",
+    "enablePortal": true
+  }
+}

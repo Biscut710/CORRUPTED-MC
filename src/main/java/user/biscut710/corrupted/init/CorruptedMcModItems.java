@@ -13,6 +13,7 @@ import user.biscut710.corrupted.item.PureNetheriteHoeItem;
 import user.biscut710.corrupted.item.PureNetheriteAxeItem;
 import user.biscut710.corrupted.item.PureNetheriteArmorItem;
 import user.biscut710.corrupted.item.LGlOWINGOBIItem;
+import user.biscut710.corrupted.item.GLOWINGOBIDIMItem;
 import user.biscut710.corrupted.item.ENetherStarItem;
 import user.biscut710.corrupted.CorruptedMcMod;
 
@@ -50,6 +51,7 @@ public class CorruptedMcModItems {
 			() -> new PureNetheriteArmorItem.Boots());
 	public static final RegistryObject<Item> E_NETHER_STAR = REGISTRY.register("e_nether_star", () -> new ENetherStarItem());
 	public static final RegistryObject<Item> L_GL_OWINGOBI_BUCKET = REGISTRY.register("l_gl_owingobi_bucket", () -> new LGlOWINGOBIItem());
+	public static final RegistryObject<Item> GLOWINGOBIDIM = REGISTRY.register("glowingobidim", () -> new GLOWINGOBIDIMItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
