@@ -283,6 +283,14 @@
       "metadata": {
         "ep": true
       }
+    },
+    {
+      "name": "GLOWINGOBIIGNITER",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowingobiigniter"
     }
   ],
   "variable_elements": [],

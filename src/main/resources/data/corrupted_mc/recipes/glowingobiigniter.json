@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "corrupted_mc:red_crystal"
+    },
+    "1": {
+      "item": "corrupted_mc:glowing_obsidian"
+    },
+    "2": {
+      "item": "corrupted_mc:red_crystal"
+    },
+    "3": {
+      "item": "corrupted_mc:glowing_obsidian"
+    },
+    "4": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "5": {
+      "item": "corrupted_mc:glowing_obsidian"
+    },
+    "6": {
+      "item": "corrupted_mc:red_crystal"
+    },
+    "7": {
+      "item": "corrupted_mc:glowing_obsidian"
+    },
+    "8": {
+      "item": "corrupted_mc:red_crystal"
+    }
+  },
+  "result": {
+    "item": "corrupted_mc:glowingobidim",
+    "count": 1
+  }
+}
