@@ -1,9 +1,12 @@
 {
-  "type": "minecraft:smelting",
-  "experience": 2.8,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "corrupted_mc:pure_netherite_ore"
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_ingot"
   },
-  "result": "corrupted_mc:pure_netherite_ingot"
+  "addition": {
+    "item": "minecraft:lava_bucket"
+  },
+  "result": {
+    "item": "corrupted_mc:pure_netherite_ingot"
+  }
 }

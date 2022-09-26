@@ -1,12 +1,11 @@
 {
-  "item.corrupted_mc.pure_netherite_ingot": "Pure Netherite",
   "block.corrupted_mc.true_resrved_6": "True Resrved 6",
+  "item.corrupted_mc.pure_netherite_ingot": "Pure Netherite",
   "block.corrupted_mc.pure_netherite_block": "Block of Pure Netherite",
   "item.corrupted_mc.pure_netherite_shovel": "Pure Netherite Shovel",
   "item.corrupted_mc.pure_netherite_armor_chestplate": "Pure Netherite Chestplate",
   "item.corrupted_mc.pure_netherite_armor_boots": "Pure Netherite Boots",
   "block.corrupted_mc.red_crystal_ore": "Red Crystal Ore",
-  "block.corrupted_mc.pure_netherite_ore": "Pure Netherite Ore",
   "item.corrupted_mc.pure_netherite_axe": "Pure Netherite Axe",
   "item.corrupted_mc.red_crystal": "Red Crystal",
   "itemGroup.tabcorruped": "Corruped",

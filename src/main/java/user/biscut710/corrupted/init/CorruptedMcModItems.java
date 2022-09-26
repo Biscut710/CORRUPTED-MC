@@ -31,7 +31,6 @@ public class CorruptedMcModItems {
 	public static final RegistryObject<Item> RED_CRYSTAL_ORE = block(CorruptedMcModBlocks.RED_CRYSTAL_ORE, CorruptedMcModTabs.TAB_CORRUPED);
 	public static final RegistryObject<Item> RED_CRYSTAL_BLOCK = block(CorruptedMcModBlocks.RED_CRYSTAL_BLOCK, CorruptedMcModTabs.TAB_CORRUPED);
 	public static final RegistryObject<Item> PURE_NETHERITE_INGOT = REGISTRY.register("pure_netherite_ingot", () -> new PureNetheriteIngotItem());
-	public static final RegistryObject<Item> PURE_NETHERITE_ORE = block(CorruptedMcModBlocks.PURE_NETHERITE_ORE, CorruptedMcModTabs.TAB_CORRUPED);
 	public static final RegistryObject<Item> PURE_NETHERITE_BLOCK = block(CorruptedMcModBlocks.PURE_NETHERITE_BLOCK, CorruptedMcModTabs.TAB_CORRUPED);
 	public static final RegistryObject<Item> PURE_NETHERITE_PICKAXE = REGISTRY.register("pure_netherite_pickaxe",
 			() -> new PureNetheritePickaxeItem());
