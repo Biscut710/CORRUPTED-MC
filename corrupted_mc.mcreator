@@ -229,14 +229,51 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "gor"
+    },
+    {
+      "name": "ENetherStar",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_nether_star"
+    },
+    {
+      "name": "EnetherSR",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enether_sr"
+    },
+    {
+      "name": "Pnetheiter",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pnetheiter"
+    },
+    {
+      "name": "LGlOWINGOBI",
+      "type": "fluid",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_gl_owingobi",
+      "metadata": {
+        "gb": true
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.corrupted_mc.l_gl_owingobi": "Liquid Glowing Obsidian",
       "item.corrupted_mc.pure_netherite_ingot": "Pure Netherite",
       "block.corrupted_mc.true_resrved_6": "True Resrved 6",
+      "item.corrupted_mc.l_gl_owingobi_bucket": "Liquid Glowing Obsidian Bucket",
       "block.corrupted_mc.pure_netherite_block": "Block of Pure Netherite",
       "item.corrupted_mc.pure_netherite_shovel": "Pure Netherite Shovel",
       "item.corrupted_mc.pure_netherite_armor_chestplate": "Pure Netherite Chestplate",
@@ -244,6 +281,8 @@
       "block.corrupted_mc.red_crystal_ore": "Red Crystal Ore",
       "item.corrupted_mc.pure_netherite_axe": "Pure Netherite Axe",
       "item.corrupted_mc.red_crystal": "Red Crystal",
+      "item.corrupted_mc.e_nether_star": "Enhanced Nether Star",
+      "fluid.corrupted_mc.l_gl_owingobi": "Liquid Glowing Obsidian",
       "itemGroup.tabcorruped": "Corruped",
       "item.corrupted_mc.pure_netherite_armor_leggings": "Pure Netherite Leggings",
       "item.corrupted_mc.pure_netherite_sword": "Pure Netherite Sword",

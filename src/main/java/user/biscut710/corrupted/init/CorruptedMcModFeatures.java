@@ -5,6 +5,7 @@
 package user.biscut710.corrupted.init;
 
 import user.biscut710.corrupted.world.features.ores.RedCrystalOreFeature;
+import user.biscut710.corrupted.world.features.lakes.LGlOWINGOBIFeature;
 import user.biscut710.corrupted.CorruptedMcMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -32,6 +33,8 @@ public class CorruptedMcModFeatures {
 	public static final RegistryObject<Feature<?>> RED_CRYSTAL_ORE = register("red_crystal_ore", RedCrystalOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, RedCrystalOreFeature.GENERATE_BIOMES,
 					RedCrystalOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> L_GL_OWINGOBI = register("l_gl_owingobi", LGlOWINGOBIFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.LAKES, LGlOWINGOBIFeature.GENERATE_BIOMES, LGlOWINGOBIFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

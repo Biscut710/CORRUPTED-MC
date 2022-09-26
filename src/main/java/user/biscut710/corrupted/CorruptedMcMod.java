@@ -15,6 +15,7 @@ package user.biscut710.corrupted;
 
 import user.biscut710.corrupted.init.CorruptedMcModTabs;
 import user.biscut710.corrupted.init.CorruptedMcModItems;
+import user.biscut710.corrupted.init.CorruptedMcModFluids;
 import user.biscut710.corrupted.init.CorruptedMcModFeatures;
 import user.biscut710.corrupted.init.CorruptedMcModBlocks;
 
@@ -51,6 +52,7 @@ public class CorruptedMcMod {
 		CorruptedMcModItems.REGISTRY.register(bus);
 
 		CorruptedMcModFeatures.REGISTRY.register(bus);
+		CorruptedMcModFluids.REGISTRY.register(bus);
 
 	}
 

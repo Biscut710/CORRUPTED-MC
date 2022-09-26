@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "1": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "2": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "3": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "4": {
+      "item": "corrupted_mc:e_nether_star"
+    },
+    "5": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "6": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "7": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "8": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "corrupted_mc:pure_netherite_ingot",
+    "count": 1
+  }
+}
