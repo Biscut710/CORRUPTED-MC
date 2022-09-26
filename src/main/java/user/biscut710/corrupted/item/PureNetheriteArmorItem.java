@@ -1,6 +1,7 @@
 
 package user.biscut710.corrupted.item;
 
+import user.biscut710.corrupted.init.CorruptedMcModTabs;
 import user.biscut710.corrupted.init.CorruptedMcModItems;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -8,7 +9,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -63,7 +63,7 @@ public abstract class PureNetheriteArmorItem extends ArmorItem {
 
 	public static class Helmet extends PureNetheriteArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(CorruptedMcModTabs.TAB_CORRUPED).fireResistant());
 		}
 
 		@Override
@@ -74,7 +74,7 @@ public abstract class PureNetheriteArmorItem extends ArmorItem {
 
 	public static class Chestplate extends PureNetheriteArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(CorruptedMcModTabs.TAB_CORRUPED).fireResistant());
 		}
 
 		@Override
@@ -85,7 +85,7 @@ public abstract class PureNetheriteArmorItem extends ArmorItem {
 
 	public static class Leggings extends PureNetheriteArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(CorruptedMcModTabs.TAB_CORRUPED).fireResistant());
 		}
 
 		@Override
@@ -96,7 +96,7 @@ public abstract class PureNetheriteArmorItem extends ArmorItem {
 
 	public static class Boots extends PureNetheriteArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(CorruptedMcModTabs.TAB_CORRUPED).fireResistant());
 		}
 
 		@Override

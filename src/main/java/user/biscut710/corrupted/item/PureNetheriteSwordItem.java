@@ -1,6 +1,7 @@
 
 package user.biscut710.corrupted.item;
 
+import user.biscut710.corrupted.init.CorruptedMcModTabs;
 import user.biscut710.corrupted.init.CorruptedMcModItems;
 
 import net.minecraft.world.item.crafting.Ingredient;
@@ -8,7 +9,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
 public class PureNetheriteSwordItem extends SwordItem {
 	public PureNetheriteSwordItem() {
@@ -36,6 +36,6 @@ public class PureNetheriteSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(CorruptedMcModItems.PURE_NETHERITE_INGOT.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -3f, new Item.Properties().tab(CorruptedMcModTabs.TAB_CORRUPED).fireResistant());
 	}
 }

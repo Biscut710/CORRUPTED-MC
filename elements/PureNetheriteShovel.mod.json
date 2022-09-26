@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "purenetherite_shovel",
     "customModelName": "Normal",
-    "name": "PureNetherite Shovel",
+    "name": "Pure Netherite Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Corruped"
     },
     "toolType": "Spade",
     "harvestLevel": 8,
@@ -24,7 +24,7 @@
         "value": "CUSTOM:PureNetheriteIngot"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

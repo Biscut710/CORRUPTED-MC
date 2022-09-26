@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "purenetherite_sword",
     "customModelName": "Normal",
-    "name": "PureNetherite Sword",
+    "name": "Pure Netherite Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Corruped"
     },
     "toolType": "Sword",
     "harvestLevel": 8,
@@ -24,7 +24,7 @@
         "value": "CUSTOM:PureNetheriteIngot"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

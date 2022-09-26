@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "PureNetherite Ore",
+    "name": "Pure Netherite Ore",
     "specialInfo": [],
     "hardness": 12.0,
     "resistance": 15.157165665103982,
@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:PureNetheriteIngot"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

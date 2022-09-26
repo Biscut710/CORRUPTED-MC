@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "purenetherite_hoe",
     "customModelName": "Normal",
-    "name": "PureNetherite Hoe",
+    "name": "Pure Netherite Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Corruped"
     },
     "toolType": "Hoe",
     "harvestLevel": 8,
@@ -24,7 +24,7 @@
         "value": "CUSTOM:PureNetheriteIngot"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

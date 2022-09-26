@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "purenetherite_axe",
     "customModelName": "Normal",
-    "name": "PureNetherite Axe",
+    "name": "Pure Netherite Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Corruped"
     },
     "toolType": "Axe",
     "harvestLevel": 8,
@@ -24,7 +24,7 @@
         "value": "CUSTOM:PureNetheriteIngot"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

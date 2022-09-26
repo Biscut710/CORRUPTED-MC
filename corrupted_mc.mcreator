@@ -65,14 +65,6 @@
       "registry_name": "red_crystal_block_ore_recipe"
     },
     {
-      "name": "RedCrystalOreSmelting",
-      "type": "recipe",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "red_crystal_ore_smelting"
-    },
-    {
       "name": "PureNetheriteIngot",
       "type": "item",
       "sortid": 9,
@@ -251,24 +243,24 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.corrupted_mc.pure_netherite_ingot": "Pure Netherite",
       "block.corrupted_mc.true_resrved_6": "True Resrved 6",
-      "item.corrupted_mc.pure_netherite_ingot": "PureNetherite",
-      "block.corrupted_mc.pure_netherite_block": "Block of PureNetherite",
-      "item.corrupted_mc.pure_netherite_shovel": "PureNetherite Shovel",
-      "item.corrupted_mc.pure_netherite_armor_chestplate": "PureNetherite Chestplate",
-      "item.corrupted_mc.pure_netherite_armor_boots": "PureNetherite Boots",
-      "block.corrupted_mc.red_crystal_ore": "RedCrystal Ore",
-      "block.corrupted_mc.pure_netherite_ore": "PureNetherite Ore",
-      "item.corrupted_mc.pure_netherite_axe": "PureNetherite Axe",
-      "item.corrupted_mc.red_crystal": "RedCrystal",
+      "block.corrupted_mc.pure_netherite_block": "Block of Pure Netherite",
+      "item.corrupted_mc.pure_netherite_shovel": "Pure Netherite Shovel",
+      "item.corrupted_mc.pure_netherite_armor_chestplate": "Pure Netherite Chestplate",
+      "item.corrupted_mc.pure_netherite_armor_boots": "Pure Netherite Boots",
+      "block.corrupted_mc.red_crystal_ore": "Red Crystal Ore",
+      "block.corrupted_mc.pure_netherite_ore": "Pure Netherite Ore",
+      "item.corrupted_mc.pure_netherite_axe": "Pure Netherite Axe",
+      "item.corrupted_mc.red_crystal": "Red Crystal",
       "itemGroup.tabcorruped": "Corruped",
-      "item.corrupted_mc.pure_netherite_armor_leggings": "PureNetherite Leggings",
-      "item.corrupted_mc.pure_netherite_sword": "PureNetherite Sword",
-      "item.corrupted_mc.pure_netherite_pickaxe": "PureNetherite Pickaxe",
-      "item.corrupted_mc.pure_netherite_armor_helmet": "PureNetherite Helmet",
-      "block.corrupted_mc.red_crystal_block": "Block of RedCrystal",
+      "item.corrupted_mc.pure_netherite_armor_leggings": "Pure Netherite Leggings",
+      "item.corrupted_mc.pure_netherite_sword": "Pure Netherite Sword",
+      "item.corrupted_mc.pure_netherite_pickaxe": "Pure Netherite Pickaxe",
+      "item.corrupted_mc.pure_netherite_armor_helmet": "Pure Netherite Helmet",
+      "block.corrupted_mc.red_crystal_block": "Block of Red Crystal",
       "block.corrupted_mc.glowing_obsidian": "Glowing Obsidian",
-      "item.corrupted_mc.pure_netherite_hoe": "PureNetherite Hoe"
+      "item.corrupted_mc.pure_netherite_hoe": "Pure Netherite Hoe"
     }
   },
   "foldersRoot": {

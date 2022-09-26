@@ -1,8 +1,6 @@
 
 package user.biscut710.corrupted.block;
 
-import user.biscut710.corrupted.init.CorruptedMcModItems;
-
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
@@ -40,6 +38,6 @@ public class PureNetheriteOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(CorruptedMcModItems.PURE_NETHERITE_INGOT.get()));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

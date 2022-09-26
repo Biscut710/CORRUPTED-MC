@@ -1,13 +1,13 @@
 
 package user.biscut710.corrupted.item;
 
+import user.biscut710.corrupted.init.CorruptedMcModTabs;
 import user.biscut710.corrupted.init.CorruptedMcModItems;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.AxeItem;
 
 public class PureNetheriteAxeItem extends AxeItem {
@@ -36,6 +36,6 @@ public class PureNetheriteAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(CorruptedMcModItems.PURE_NETHERITE_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3f, new Item.Properties().tab(CorruptedMcModTabs.TAB_CORRUPED).fireResistant());
 	}
 }

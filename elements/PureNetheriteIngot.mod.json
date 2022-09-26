@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "purenetherite_ingot",
     "customModelName": "Normal",
-    "name": "PureNetherite",
+    "name": "Pure Netherite",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Corruped"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -19,7 +19,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
