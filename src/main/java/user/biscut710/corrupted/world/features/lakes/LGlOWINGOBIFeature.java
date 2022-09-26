@@ -21,6 +21,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
+import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Direction;
 
@@ -37,7 +38,7 @@ public class LGlOWINGOBIFeature extends LakeFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("corrupted_mc:l_gl_owingobi", FEATURE, new LakeFeature.Configuration(
 				BlockStateProvider.simple(CorruptedMcModBlocks.L_GL_OWINGOBI.get()), BlockStateProvider.simple(Blocks.AIR)));
 		PLACED_FEATURE = PlacementUtils.register("corrupted_mc:l_gl_owingobi", CONFIGURED_FEATURE,
-				List.of(RarityFilter.onAverageOnceEvery(5), InSquarePlacement.spread(), PlacementUtils.RANGE_BOTTOM_TO_MAX_TERRAIN_HEIGHT,
+				List.of(RarityFilter.onAverageOnceEvery(4), InSquarePlacement.spread(), PlacementUtils.RANGE_BOTTOM_TO_MAX_TERRAIN_HEIGHT,
 						EnvironmentScanPlacement.scanningFor(Direction.DOWN, BlockPredicate.not(BlockPredicate.ONLY_IN_AIR_PREDICATE), 32),
 						BiomeFilter.biome()));
 		return FEATURE;
@@ -48,7 +49,8 @@ public class LGlOWINGOBIFeature extends LakeFeature {
 	}
 
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set
+			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("corrupted_mc:glowingobidim")));
 
 	public LGlOWINGOBIFeature() {
 		super(LakeFeature.Configuration.CODEC);
