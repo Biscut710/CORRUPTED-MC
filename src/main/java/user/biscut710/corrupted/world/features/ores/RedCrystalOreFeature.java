@@ -47,7 +47,7 @@ public class RedCrystalOreFeature extends OreFeature {
 				new OreConfiguration(RedCrystalOreFeatureRuleTest.INSTANCE, CorruptedMcModBlocks.RED_CRYSTAL_ORE.get().defaultBlockState(), 7));
 		PLACED_FEATURE = PlacementUtils.register("corrupted_mc:red_crystal_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(11), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(63)), BiomeFilter.biome()));
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(125)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
