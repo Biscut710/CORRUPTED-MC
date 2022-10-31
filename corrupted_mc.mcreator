@@ -291,6 +291,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowingobiigniter"
+    },
+    {
+      "name": "LGLOWOBIR",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lglowobir"
     }
   ],
   "variable_elements": [],

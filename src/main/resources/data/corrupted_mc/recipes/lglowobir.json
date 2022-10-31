@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "cookingtime": 1200,
+  "ingredient": {
+    "item": "corrupted_mc:glowing_obsidian"
+  },
+  "result": "corrupted_mc:l_gl_owingobi_bucket"
+}
