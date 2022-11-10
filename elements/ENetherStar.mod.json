@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "enteherstart",
+    "texture": "nether_star_16x16",
     "customModelName": "Normal",
     "name": "Enhanced Nether Star",
     "rarity": "EPIC",

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "corrupted_mc:items/enteherstart"
+    "layer0": "corrupted_mc:items/nether_star_16x16"
   }
 }
