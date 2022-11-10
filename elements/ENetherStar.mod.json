@@ -1,9 +1,9 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "enteherstart",
+    "texture": "enether_star",
     "customModelName": "Normal",
     "name": "Enhanced Nether Star",
     "rarity": "EPIC",
