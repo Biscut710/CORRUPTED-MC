@@ -3,6 +3,7 @@ package user.biscut710.corrupted.block;
 
 import user.biscut710.corrupted.world.teleporter.GLOWINGOBIDIMTeleporter;
 import user.biscut710.corrupted.world.teleporter.GLOWINGOBIDIMPortalShape;
+import user.biscut710.corrupted.init.CorruptedMcModBlocks;
 
 import org.checkerframework.checker.units.qual.s;
 
@@ -27,6 +28,8 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import java.util.Random;
 import java.util.Optional;
@@ -104,5 +107,10 @@ public class GLOWINGOBIDIMPortalBlock extends NetherPortalBlock {
 	private void teleportToDimension(Entity entity, BlockPos pos, ResourceKey<Level> destinationType) {
 		entity.changeDimension(entity.getServer().getLevel(destinationType),
 				new GLOWINGOBIDIMTeleporter(entity.getServer().getLevel(destinationType), pos));
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static void registerRenderLayer() {
+		ItemBlockRenderTypes.setRenderLayer(CorruptedMcModBlocks.GLOWINGOBIDIM_PORTAL.get(), renderType -> renderType == RenderType.translucent());
 	}
 }

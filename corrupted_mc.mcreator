@@ -337,7 +337,7 @@
   "workspaceSettings": {
     "modid": "corrupted_mc",
     "modName": "CORRUPTED",
-    "version": "Dev Alpha 0.0.1",
+    "version": "0.0.1 Dev Alpha",
     "description": "Reality is breaking! Adventure across dimensions to save the world!",
     "author": "Biscut710, Developer2704",
     "websiteURL": "https://google.com",
@@ -354,5 +354,5 @@
     "modElementsPackage": "user.biscut710.corrupted",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202200346416
 }
