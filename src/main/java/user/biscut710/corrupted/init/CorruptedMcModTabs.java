@@ -4,9 +4,6 @@
  */
 package user.biscut710.corrupted.init;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -20,7 +17,7 @@ public class CorruptedMcModTabs {
 				return new ItemStack(CorruptedMcModBlocks.TRUE_RESRVED_6.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return true;
 			}

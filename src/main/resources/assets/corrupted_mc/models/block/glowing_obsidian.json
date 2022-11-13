@@ -8,5 +8,6 @@
     "south": "corrupted_mc:blocks/glowing-obsidean",
     "west": "corrupted_mc:blocks/glowing-obsidean",
     "particle": "corrupted_mc:blocks/glowing-obsidean"
-  }
+  },
+  "render_type": "solid"
 }

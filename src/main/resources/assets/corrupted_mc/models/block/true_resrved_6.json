@@ -8,5 +8,6 @@
     "south": "corrupted_mc:blocks/sr6b",
     "west": "corrupted_mc:blocks/sr6b",
     "particle": "corrupted_mc:blocks/sr6b"
-  }
+  },
+  "render_type": "solid"
 }
