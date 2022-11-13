@@ -3,7 +3,7 @@
     {
       "name": "Corruped",
       "type": "tab",
-      "sortid": 1,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "corruped"
@@ -27,7 +27,7 @@
     {
       "name": "RedCrystal",
       "type": "item",
-      "sortid": 3,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_crystal"
@@ -35,7 +35,7 @@
     {
       "name": "RedCrystalOre",
       "type": "block",
-      "sortid": 4,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_crystal_ore"
@@ -43,7 +43,7 @@
     {
       "name": "RedCrystalBlock",
       "type": "block",
-      "sortid": 5,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_crystal_block"
@@ -51,7 +51,7 @@
     {
       "name": "RedCrystalOreBlockRecipe",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_crystal_ore_block_recipe"
@@ -59,7 +59,7 @@
     {
       "name": "RedCrystalBlockOreRecipe",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_crystal_block_ore_recipe"
@@ -75,7 +75,7 @@
     {
       "name": "PureNetheriteBlock",
       "type": "block",
-      "sortid": 11,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_block"
@@ -83,7 +83,7 @@
     {
       "name": "PureNetheriteOreBlockRecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_ore_block_recipe"
@@ -91,7 +91,7 @@
     {
       "name": "PureNetheriteBlockOreRecipe",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_block_ore_recipe"
@@ -99,7 +99,7 @@
     {
       "name": "PureNetheritePickaxe",
       "type": "tool",
-      "sortid": 15,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_pickaxe"
@@ -107,7 +107,7 @@
     {
       "name": "PureNetheriteAxe",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_axe"
@@ -115,7 +115,7 @@
     {
       "name": "PureNetheriteSword",
       "type": "tool",
-      "sortid": 17,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_sword"
@@ -123,7 +123,7 @@
     {
       "name": "PureNetheriteShovel",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_shovel"
@@ -131,7 +131,7 @@
     {
       "name": "PureNetheriteHoe",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_hoe"
@@ -139,7 +139,7 @@
     {
       "name": "PureNetheritePickaxeRecipe",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_pickaxe_recipe"
@@ -147,7 +147,7 @@
     {
       "name": "PureNetheriteAxeRecipe",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_axe_recipe"
@@ -155,7 +155,7 @@
     {
       "name": "PureNetheriteSwordRecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_sword_recipe"
@@ -163,7 +163,7 @@
     {
       "name": "PureNetheriteShovelRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_shovel_recipe"
@@ -171,7 +171,7 @@
     {
       "name": "PureNetheriteHoeRecipe",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_hoe_recipe"
@@ -179,7 +179,7 @@
     {
       "name": "PureNetheriteArmor",
       "type": "armor",
-      "sortid": 25,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_armor",
@@ -193,7 +193,7 @@
     {
       "name": "PureNetheriteArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_armor_helmet_recipe"
@@ -201,7 +201,7 @@
     {
       "name": "PureNetheriteArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_armor_body_recipe"
@@ -209,7 +209,7 @@
     {
       "name": "PureNetheriteArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_armor_leggings_recipe"
@@ -217,7 +217,7 @@
     {
       "name": "PureNetheriteArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_armor_boots_recipe"
@@ -225,7 +225,7 @@
     {
       "name": "GOR",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gor"
@@ -233,7 +233,7 @@
     {
       "name": "ENetherStar",
       "type": "item",
-      "sortid": 31,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "e_nether_star"
@@ -257,7 +257,7 @@
     {
       "name": "LGlOWINGOBI",
       "type": "fluid",
-      "sortid": 34,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "l_gl_owingobi",
@@ -268,7 +268,7 @@
     {
       "name": "GlowingObsidianFieldLands",
       "type": "biome",
-      "sortid": 35,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_obsidian_field_lands"
@@ -276,7 +276,7 @@
     {
       "name": "GLOWINGOBIDIM",
       "type": "dimension",
-      "sortid": 36,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowingobidim",
@@ -287,7 +287,7 @@
     {
       "name": "GLOWINGOBIIGNITER",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowingobiigniter"
@@ -295,7 +295,7 @@
     {
       "name": "LGLOWOBIR",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lglowobir"
