@@ -1,5 +1,5 @@
 {
   "parent": "forge:item/bucket_drip",
-  "loader": "forge:bucket",
+  "loader": "forge:fluid_container",
   "fluid": "corrupted_mc:l_gl_owingobi"
 }

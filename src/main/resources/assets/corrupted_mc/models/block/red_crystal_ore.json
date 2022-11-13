@@ -3,5 +3,6 @@
   "textures": {
     "all": "corrupted_mc:blocks/redcrystal_ore",
     "particle": "corrupted_mc:blocks/redcrystal_ore"
-  }
+  },
+  "render_type": "solid"
 }
