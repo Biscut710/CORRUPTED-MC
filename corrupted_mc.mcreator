@@ -27,7 +27,7 @@
     {
       "name": "RedCrystal",
       "type": "item",
-      "sortid": 4,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_crystal"
@@ -35,7 +35,7 @@
     {
       "name": "RedCrystalOre",
       "type": "block",
-      "sortid": 5,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_crystal_ore"
@@ -43,7 +43,7 @@
     {
       "name": "RedCrystalBlock",
       "type": "block",
-      "sortid": 6,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_crystal_block"
@@ -67,7 +67,7 @@
     {
       "name": "PureNetheriteIngot",
       "type": "item",
-      "sortid": 9,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_ingot"
@@ -75,7 +75,7 @@
     {
       "name": "PureNetheriteBlock",
       "type": "block",
-      "sortid": 8,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_block"
@@ -99,7 +99,7 @@
     {
       "name": "PureNetheritePickaxe",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_pickaxe"
@@ -107,7 +107,7 @@
     {
       "name": "PureNetheriteAxe",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_axe"
@@ -115,7 +115,7 @@
     {
       "name": "PureNetheriteSword",
       "type": "tool",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_sword"
@@ -123,7 +123,7 @@
     {
       "name": "PureNetheriteShovel",
       "type": "tool",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_shovel"
@@ -131,7 +131,7 @@
     {
       "name": "PureNetheriteHoe",
       "type": "tool",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_hoe"
@@ -179,7 +179,7 @@
     {
       "name": "PureNetheriteArmor",
       "type": "armor",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_netherite_armor",
@@ -233,7 +233,7 @@
     {
       "name": "ENetherStar",
       "type": "item",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "e_nether_star"
@@ -276,7 +276,7 @@
     {
       "name": "GLOWINGOBIDIM",
       "type": "dimension",
-      "sortid": 16,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowingobidim",
