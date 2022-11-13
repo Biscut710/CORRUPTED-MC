@@ -47,7 +47,7 @@ public class GlowingObsidianFieldLandsBiome {
 								.decorators(ImmutableList.of(GlowingObsidianFieldLandsLeaveDecorator.INSTANCE,
 										GlowingObsidianFieldLandsTrunkDecorator.INSTANCE, GlowingObsidianFieldLandsFruitDecorator.INSTANCE))
 								.build()),
-				List.of(CountPlacement.of(3), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
+				List.of(CountPlacement.of(5), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
 						PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING), BiomeFilter.biome())));
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
