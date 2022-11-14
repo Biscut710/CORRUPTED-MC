@@ -18,6 +18,6 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 @Mod.EventBusSubscriber
 public class CorruptedMcModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, CorruptedMcMod.MODID);
-	public static final RegistryObject<Feature<?>> RED_CRYSTAL_ORE = REGISTRY.register("red_crystal_ore", RedCrystalOreFeature::feature);
 	public static final RegistryObject<Feature<?>> L_GL_OWINGOBI = REGISTRY.register("l_gl_owingobi", LGlOWINGOBIFeature::feature);
+	public static final RegistryObject<Feature<?>> RED_CRYSTAL_ORE = REGISTRY.register("red_crystal_ore", RedCrystalOreFeature::feature);
 }

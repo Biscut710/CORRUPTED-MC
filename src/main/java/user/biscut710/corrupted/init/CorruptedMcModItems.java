@@ -30,11 +30,14 @@ public class CorruptedMcModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, CorruptedMcMod.MODID);
 	public static final RegistryObject<Item> TRUE_RESRVED_6 = block(CorruptedMcModBlocks.TRUE_RESRVED_6, CorruptedMcModTabs.TAB_CORRUPED);
 	public static final RegistryObject<Item> GLOWING_OBSIDIAN = block(CorruptedMcModBlocks.GLOWING_OBSIDIAN, CorruptedMcModTabs.TAB_CORRUPED);
+	public static final RegistryObject<Item> L_GL_OWINGOBI_BUCKET = REGISTRY.register("l_gl_owingobi_bucket", () -> new LGlOWINGOBIItem());
+	public static final RegistryObject<Item> GLOWINGOBIDIM = REGISTRY.register("glowingobidim", () -> new GLOWINGOBIDIMItem());
 	public static final RegistryObject<Item> RED_CRYSTAL = REGISTRY.register("red_crystal", () -> new RedCrystalItem());
 	public static final RegistryObject<Item> RED_CRYSTAL_ORE = block(CorruptedMcModBlocks.RED_CRYSTAL_ORE, CorruptedMcModTabs.TAB_CORRUPED);
 	public static final RegistryObject<Item> RED_CRYSTAL_BLOCK = block(CorruptedMcModBlocks.RED_CRYSTAL_BLOCK, CorruptedMcModTabs.TAB_CORRUPED);
-	public static final RegistryObject<Item> PURE_NETHERITE_INGOT = REGISTRY.register("pure_netherite_ingot", () -> new PureNetheriteIngotItem());
+	public static final RegistryObject<Item> E_NETHER_STAR = REGISTRY.register("e_nether_star", () -> new ENetherStarItem());
 	public static final RegistryObject<Item> PURE_NETHERITE_BLOCK = block(CorruptedMcModBlocks.PURE_NETHERITE_BLOCK, CorruptedMcModTabs.TAB_CORRUPED);
+	public static final RegistryObject<Item> PURE_NETHERITE_INGOT = REGISTRY.register("pure_netherite_ingot", () -> new PureNetheriteIngotItem());
 	public static final RegistryObject<Item> PURE_NETHERITE_PICKAXE = REGISTRY.register("pure_netherite_pickaxe",
 			() -> new PureNetheritePickaxeItem());
 	public static final RegistryObject<Item> PURE_NETHERITE_AXE = REGISTRY.register("pure_netherite_axe", () -> new PureNetheriteAxeItem());
@@ -49,9 +52,6 @@ public class CorruptedMcModItems {
 			() -> new PureNetheriteArmorItem.Leggings());
 	public static final RegistryObject<Item> PURE_NETHERITE_ARMOR_BOOTS = REGISTRY.register("pure_netherite_armor_boots",
 			() -> new PureNetheriteArmorItem.Boots());
-	public static final RegistryObject<Item> E_NETHER_STAR = REGISTRY.register("e_nether_star", () -> new ENetherStarItem());
-	public static final RegistryObject<Item> L_GL_OWINGOBI_BUCKET = REGISTRY.register("l_gl_owingobi_bucket", () -> new LGlOWINGOBIItem());
-	public static final RegistryObject<Item> GLOWINGOBIDIM = REGISTRY.register("glowingobidim", () -> new GLOWINGOBIDIMItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
