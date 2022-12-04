@@ -38,5 +38,5 @@
       "corrupted_mc:entities/enetherstarloot"
     ]
   },
-  "parent": "minecraft:husbandry/obtain_netherite_hoe"
+  "parent": "corrupted_mc:init"
 }
