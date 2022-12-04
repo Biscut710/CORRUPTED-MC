@@ -299,35 +299,53 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lglowobir"
+    },
+    {
+      "name": "PNHCR",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pnhcr"
+    },
+    {
+      "name": "Enetherstarloot",
+      "type": "loottable",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enetherstarloot"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.corrupted_mc.pure_netherite_shovel": "Pure Netherite Shovel",
+      "item.corrupted_mc.pure_netherite_armor_boots": "Pure Netherite Boots",
+      "item.corrupted_mc.pure_netherite_axe": "Pure Netherite Axe",
+      "item.corrupted_mc.red_crystal": "Red Crystal",
+      "biome.corrupted_mc.glowing_obsidian_field_lands": "Glowing Obsidian Field Lands",
+      "item.corrupted_mc.pure_netherite_armor_leggings": "Pure Netherite Leggings",
+      "item.corrupted_mc.pure_netherite_pickaxe": "Pure Netherite Pickaxe",
+      "block.corrupted_mc.red_crystal_block": "Block of Red Crystal",
+      "item.corrupted_mc.pure_netherite_hoe": "Pure Netherite Hoe",
       "block.corrupted_mc.l_gl_owingobi": "Liquid Glowing Obsidian",
       "item.corrupted_mc.pure_netherite_ingot": "Pure Netherite",
       "block.corrupted_mc.true_resrved_6": "True Resrved 6",
       "item.corrupted_mc.l_gl_owingobi_bucket": "Liquid Glowing Obsidian Bucket",
       "block.corrupted_mc.pure_netherite_block": "Block of Pure Netherite",
-      "item.corrupted_mc.pure_netherite_shovel": "Pure Netherite Shovel",
       "item.corrupted_mc.pure_netherite_armor_chestplate": "Pure Netherite Chestplate",
-      "item.corrupted_mc.pure_netherite_armor_boots": "Pure Netherite Boots",
       "block.corrupted_mc.red_crystal_ore": "Red Crystal Ore",
-      "item.corrupted_mc.pure_netherite_axe": "Pure Netherite Axe",
-      "item.corrupted_mc.red_crystal": "Red Crystal",
-      "item.corrupted_mc.e_nether_star": "Enhanced Nether Star",
       "fluid.corrupted_mc.l_gl_owingobi": "Liquid Glowing Obsidian",
-      "biome.corrupted_mc.glowing_obsidian_field_lands": "Glowing Obsidian Field Lands",
+      "item.corrupted_mc.e_nether_star": "Enhanced Nether Star",
       "itemGroup.tabcorruped": "Corruped",
-      "item.corrupted_mc.pure_netherite_armor_leggings": "Pure Netherite Leggings",
       "item.corrupted_mc.glowingobidim": "Glowing Obsidian Portal Igniter",
       "item.corrupted_mc.pure_netherite_sword": "Pure Netherite Sword",
-      "item.corrupted_mc.pure_netherite_pickaxe": "Pure Netherite Pickaxe",
       "item.corrupted_mc.pure_netherite_armor_helmet": "Pure Netherite Helmet",
-      "block.corrupted_mc.red_crystal_block": "Block of Red Crystal",
-      "block.corrupted_mc.glowing_obsidian": "Glowing Obsidian",
-      "item.corrupted_mc.pure_netherite_hoe": "Pure Netherite Hoe"
+      "advancements.pnhcr.title": "Insane dedication",
+      "advancements.pnhcr.descr": "WHY THE F*** DO YOU HAVE THIS!?!?!?!?",
+      "block.corrupted_mc.glowing_obsidian": "Glowing Obsidian"
     }
   },
   "foldersRoot": {
