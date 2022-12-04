@@ -10,7 +10,7 @@
     "background": "Default",
     "disableDisplay": false,
     "showPopup": false,
-    "announceToChat": true,
+    "announceToChat": false,
     "hideIfNotCompleted": true,
     "rewardLoot": [],
     "rewardRecipes": [],
@@ -20,6 +20,6 @@
     "parent": {
       "value": "No parent: root"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"38\" y=\"135\"><field name=\"dimension\">Surface</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"tick\" x=\"73\" y=\"201\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

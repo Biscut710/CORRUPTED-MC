@@ -12,15 +12,12 @@
     },
     "frame": "task",
     "show_toast": false,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
     "init": {
-      "trigger": "minecraft:changed_dimension",
-      "conditions": {
-        "to": "minecraft:overworld"
-      }
+      "trigger": "minecraft:tick"
     }
   }
 }
