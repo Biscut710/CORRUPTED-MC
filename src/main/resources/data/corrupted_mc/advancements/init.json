@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "corrupted_mc:true_resrved_6"
+    },
+    "title": {
+      "translate": "advancements.init.title"
+    },
+    "description": {
+      "translate": "advancements.init.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "init": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  }
+}
