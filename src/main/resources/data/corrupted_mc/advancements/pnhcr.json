@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "corrupted_mc:pure_netherite_hoe"
     },
@@ -38,5 +37,6 @@
     "loot": [
       "corrupted_mc:entities/enetherstarloot"
     ]
-  }
+  },
+  "parent": "minecraft:husbandry/obtain_netherite_hoe"
 }
