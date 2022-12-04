@@ -323,16 +323,35 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "init"
+    },
+    {
+      "name": "PNSA",
+      "type": "achievement",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pnsa"
+    },
+    {
+      "name": "OPNA",
+      "type": "achievement",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opna"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "advancements.pnsa.descr": "Enhance a nether star",
       "item.corrupted_mc.pure_netherite_shovel": "Pure Netherite Shovel",
+      "advancements.pnsa.title": "Twinkley",
       "item.corrupted_mc.pure_netherite_armor_boots": "Pure Netherite Boots",
       "item.corrupted_mc.pure_netherite_axe": "Pure Netherite Axe",
       "item.corrupted_mc.red_crystal": "Red Crystal",
+      "advancements.opna.descr": "Obtain Pure Netherite",
       "biome.corrupted_mc.glowing_obsidian_field_lands": "Glowing Obsidian Field Lands",
       "item.corrupted_mc.pure_netherite_armor_leggings": "Pure Netherite Leggings",
       "item.corrupted_mc.pure_netherite_pickaxe": "Pure Netherite Pickaxe",
@@ -344,6 +363,7 @@
       "item.corrupted_mc.l_gl_owingobi_bucket": "Liquid Glowing Obsidian Bucket",
       "block.corrupted_mc.pure_netherite_block": "Block of Pure Netherite",
       "item.corrupted_mc.pure_netherite_armor_chestplate": "Pure Netherite Chestplate",
+      "advancements.opna.title": "Pure Netherite",
       "block.corrupted_mc.red_crystal_ore": "Red Crystal Ore",
       "fluid.corrupted_mc.l_gl_owingobi": "Liquid Glowing Obsidian",
       "item.corrupted_mc.e_nether_star": "Enhanced Nether Star",
@@ -379,7 +399,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
     "credits": "Created By Biscut710 and Developer2704",
-    "modElementsPackage": "user.biscut710.corrupted",
+    "modElementsPackage": "net.biscut710.corrupted",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200348217

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "corrupted_mc:pure_netherite_ingot"
+    },
+    "title": {
+      "translate": "advancements.opna.title"
+    },
+    "description": {
+      "translate": "advancements.opna.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "opna": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "corrupted_mc:pure_netherite_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "corrupted_mc:pnhcr"
+}
