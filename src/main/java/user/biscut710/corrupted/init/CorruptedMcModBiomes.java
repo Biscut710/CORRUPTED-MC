@@ -16,5 +16,5 @@ import net.minecraft.world.level.biome.Biome;
 public class CorruptedMcModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, CorruptedMcMod.MODID);
 	public static final RegistryObject<Biome> GLOWING_OBSIDIAN_FIELD_LANDS = REGISTRY.register("glowing_obsidian_field_lands",
-			() -> GlowingObsidianFieldLandsBiome.createBiome());
+			GlowingObsidianFieldLandsBiome::createBiome);
 }
