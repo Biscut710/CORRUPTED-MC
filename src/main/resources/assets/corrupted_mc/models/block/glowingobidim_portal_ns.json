@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "corrupted_mc:blocks/glowing-obsidean",
-    "portal": "corrupted_mc:blocks/glowing-obsidean"
+    "particle": "corrupted_mc:blocks/g_o_p",
+    "portal": "corrupted_mc:blocks/g_o_p"
   },
   "elements": [
     {

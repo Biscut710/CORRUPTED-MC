@@ -35,8 +35,8 @@
     "igniterTab": {
       "value": "CUSTOM:Corruped"
     },
-    "texture": "ingiterobi",
-    "portalTexture": "glowing-obsidean",
+    "texture": "g_o_p_i",
+    "portalTexture": "g_o_p",
     "enablePortal": true
   }
 }
