@@ -38,5 +38,5 @@
       "corrupted_mc:entities/enetherstarloot"
     ]
   },
-  "parent": "corrupted_mc:init"
+  "parent": "corrupted_mc:opna"
 }
