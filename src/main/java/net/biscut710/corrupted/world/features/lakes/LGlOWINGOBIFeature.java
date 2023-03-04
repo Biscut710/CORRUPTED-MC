@@ -38,7 +38,7 @@ public class LGlOWINGOBIFeature extends LakeFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("corrupted_mc:l_gl_owingobi", FEATURE, new LakeFeature.Configuration(
 				BlockStateProvider.simple(CorruptedMcModBlocks.L_GL_OWINGOBI.get()), BlockStateProvider.simple(Blocks.AIR)));
 		PLACED_FEATURE = PlacementUtils.register("corrupted_mc:l_gl_owingobi", CONFIGURED_FEATURE,
-				List.of(RarityFilter.onAverageOnceEvery(4), InSquarePlacement.spread(), PlacementUtils.RANGE_BOTTOM_TO_MAX_TERRAIN_HEIGHT,
+				List.of(RarityFilter.onAverageOnceEvery(1), InSquarePlacement.spread(), PlacementUtils.RANGE_BOTTOM_TO_MAX_TERRAIN_HEIGHT,
 						EnvironmentScanPlacement.scanningFor(Direction.DOWN, BlockPredicate.not(BlockPredicate.ONLY_IN_AIR_PREDICATE), 32),
 						BiomeFilter.biome()));
 		return FEATURE;

@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Over energized",
+    "splashName": "Splash Potion of Over energized",
+    "lingeringName": "Lingering Potion of Over energized",
+    "arrowName": "Arrow of Over energized",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:EFFOVE"
+        },
+        "duration": 500,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

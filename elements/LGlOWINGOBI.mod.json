@@ -39,7 +39,7 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "DEFAULT",
-    "frequencyOnChunks": 4,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "CUSTOM:GLOWINGOBIDIM"
     ],

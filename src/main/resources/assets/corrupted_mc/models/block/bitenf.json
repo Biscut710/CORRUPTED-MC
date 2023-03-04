@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "corrupted_mc:blocks/g_o_p",
+    "up": "corrupted_mc:blocks/g_o_p",
+    "north": "corrupted_mc:blocks/g_o_p",
+    "east": "corrupted_mc:blocks/g_o_p",
+    "south": "corrupted_mc:blocks/g_o_p",
+    "west": "corrupted_mc:blocks/g_o_p",
+    "particle": "corrupted_mc:blocks/g_o_p"
+  },
+  "render_type": "solid"
+}

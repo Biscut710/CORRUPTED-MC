@@ -339,6 +339,130 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "opna"
+    },
+    {
+      "name": "EFFOVEOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effove_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EFFOVE",
+      "type": "potioneffect",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effove"
+    },
+    {
+      "name": "POTOVE",
+      "type": "potion",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potove"
+    },
+    {
+      "name": "POTOVER",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potover"
+    },
+    {
+      "name": "MILKEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MILK",
+      "type": "potioneffect",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk"
+    },
+    {
+      "name": "POTMILKR",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potmilkr"
+    },
+    {
+      "name": "POTMILK",
+      "type": "potion",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potmilk"
+    },
+    {
+      "name": "BITENFGUI",
+      "type": "gui",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bitenfgui"
+    },
+    {
+      "name": "BITENF",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bitenf"
+    },
+    {
+      "name": "BITENFGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bitenfgui_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -346,20 +470,27 @@
   "language_map": {
     "en_us": {
       "advancements.pnsa.descr": "Enhance a nether star",
+      "item.minecraft.potion.effect.potmilk": "Potion of Milk",
       "item.corrupted_mc.pure_netherite_shovel": "Pure Netherite Shovel",
       "advancements.pnsa.title": "Twinkley",
       "item.corrupted_mc.pure_netherite_armor_boots": "Pure Netherite Boots",
+      "item.minecraft.lingering_potion.effect.potove": "Lingering Potion of Over energized",
       "item.corrupted_mc.pure_netherite_axe": "Pure Netherite Axe",
       "item.corrupted_mc.red_crystal": "Red Crystal",
+      "item.minecraft.splash_potion.effect.potmilk": "Splash Potion of Milk",
       "advancements.opna.descr": "Obtain Pure Netherite",
       "biome.corrupted_mc.glowing_obsidian_field_lands": "Glowing Obsidian Field Lands",
       "item.corrupted_mc.pure_netherite_armor_leggings": "Pure Netherite Leggings",
       "item.corrupted_mc.pure_netherite_pickaxe": "Pure Netherite Pickaxe",
       "block.corrupted_mc.red_crystal_block": "Block of Red Crystal",
+      "effect.corrupted_mc.effove": "Over Energized",
+      "effect.corrupted_mc.milk": "Milk",
+      "block.corrupted_mc.bitenf": "BITENF",
       "item.corrupted_mc.pure_netherite_hoe": "Pure Netherite Hoe",
       "block.corrupted_mc.l_gl_owingobi": "Liquid Glowing Obsidian",
       "item.corrupted_mc.pure_netherite_ingot": "Pure Netherite",
       "block.corrupted_mc.true_resrved_6": "True Resrved 6",
+      "item.minecraft.splash_potion.effect.potove": "Splash Potion of Over energized",
       "item.corrupted_mc.l_gl_owingobi_bucket": "Liquid Glowing Obsidian Bucket",
       "block.corrupted_mc.pure_netherite_block": "Block of Pure Netherite",
       "item.corrupted_mc.pure_netherite_armor_chestplate": "Pure Netherite Chestplate",
@@ -369,12 +500,16 @@
       "item.corrupted_mc.e_nether_star": "Enhanced Nether Star",
       "advancements.init.title": "Installed",
       "itemGroup.tabcorruped": "Corruped",
+      "item.minecraft.potion.effect.potove": "Potion of Over energized",
       "item.corrupted_mc.glowingobidim": "Glowing Obsidian Portal Igniter",
       "item.corrupted_mc.pure_netherite_sword": "Pure Netherite Sword",
+      "item.minecraft.tipped_arrow.effect.potove": "Arrow of Over energized",
       "item.corrupted_mc.pure_netherite_armor_helmet": "Pure Netherite Helmet",
+      "item.minecraft.tipped_arrow.effect.potmilk": "Arrow of Milk",
       "advancements.pnhcr.title": "Insane dedication",
       "advancements.init.descr": "The journey begins",
       "advancements.pnhcr.descr": "WHY THE F*** DO YOU HAVE THIS!?!?!?!?",
+      "item.minecraft.lingering_potion.effect.potmilk": "Lingering Potion of Milk",
       "block.corrupted_mc.glowing_obsidian": "Glowing Obsidian"
     }
   },

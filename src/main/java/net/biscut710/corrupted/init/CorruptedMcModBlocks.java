@@ -17,6 +17,7 @@ import net.biscut710.corrupted.block.PureNetheriteBlockBlock;
 import net.biscut710.corrupted.block.LGlOWINGOBIBlock;
 import net.biscut710.corrupted.block.GlowingObsidianBlock;
 import net.biscut710.corrupted.block.GLOWINGOBIDIMPortalBlock;
+import net.biscut710.corrupted.block.BITENFBlock;
 import net.biscut710.corrupted.CorruptedMcMod;
 
 public class CorruptedMcModBlocks {
@@ -28,4 +29,5 @@ public class CorruptedMcModBlocks {
 	public static final RegistryObject<Block> RED_CRYSTAL_ORE = REGISTRY.register("red_crystal_ore", () -> new RedCrystalOreBlock());
 	public static final RegistryObject<Block> RED_CRYSTAL_BLOCK = REGISTRY.register("red_crystal_block", () -> new RedCrystalBlockBlock());
 	public static final RegistryObject<Block> PURE_NETHERITE_BLOCK = REGISTRY.register("pure_netherite_block", () -> new PureNetheriteBlockBlock());
+	public static final RegistryObject<Block> BITENF = REGISTRY.register("bitenf", () -> new BITENFBlock());
 }

@@ -1,0 +1,84 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:LGlOWINGOBI.bucket"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 141,
+          "y": 72
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 179,
+          "y": 72
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 250,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "screenshot_2023-03-03_200409.png",
+          "use1Xscale": true,
+          "name": "screenshot_2023-03-03_200409.png",
+          "x": 209,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Bit Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Bit Infuser",
+          "x": 185,
+          "y": 51
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

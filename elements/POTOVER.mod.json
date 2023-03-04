@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:AWKWARD"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:LGlOWINGOBI.bucket"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:POTOVE"
+    },
+    "name": "potover",
+    "namespace": "mod"
+  }
+}

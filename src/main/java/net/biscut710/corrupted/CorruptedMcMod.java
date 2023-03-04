@@ -30,11 +30,15 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.biscut710.corrupted.init.CorruptedMcModTabs;
+import net.biscut710.corrupted.init.CorruptedMcModPotions;
+import net.biscut710.corrupted.init.CorruptedMcModMobEffects;
+import net.biscut710.corrupted.init.CorruptedMcModMenus;
 import net.biscut710.corrupted.init.CorruptedMcModItems;
 import net.biscut710.corrupted.init.CorruptedMcModFluids;
 import net.biscut710.corrupted.init.CorruptedMcModFluidTypes;
 import net.biscut710.corrupted.init.CorruptedMcModFeatures;
 import net.biscut710.corrupted.init.CorruptedMcModBlocks;
+import net.biscut710.corrupted.init.CorruptedMcModBlockEntities;
 import net.biscut710.corrupted.init.CorruptedMcModBiomes;
 
 import java.util.function.Supplier;
@@ -57,10 +61,15 @@ public class CorruptedMcMod {
 		CorruptedMcModBlocks.REGISTRY.register(bus);
 		CorruptedMcModItems.REGISTRY.register(bus);
 
+		CorruptedMcModBlockEntities.REGISTRY.register(bus);
 		CorruptedMcModFeatures.REGISTRY.register(bus);
 		CorruptedMcModFluids.REGISTRY.register(bus);
 		CorruptedMcModFluidTypes.REGISTRY.register(bus);
 
+		CorruptedMcModMobEffects.REGISTRY.register(bus);
+		CorruptedMcModPotions.REGISTRY.register(bus);
+
+		CorruptedMcModMenus.REGISTRY.register(bus);
 		CorruptedMcModBiomes.REGISTRY.register(bus);
 	}
 

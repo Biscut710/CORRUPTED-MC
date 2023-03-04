@@ -52,6 +52,7 @@ public class CorruptedMcModItems {
 			() -> new PureNetheriteArmorItem.Leggings());
 	public static final RegistryObject<Item> PURE_NETHERITE_ARMOR_BOOTS = REGISTRY.register("pure_netherite_armor_boots",
 			() -> new PureNetheriteArmorItem.Boots());
+	public static final RegistryObject<Item> BITENF = block(CorruptedMcModBlocks.BITENF, CorruptedMcModTabs.TAB_CORRUPED);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

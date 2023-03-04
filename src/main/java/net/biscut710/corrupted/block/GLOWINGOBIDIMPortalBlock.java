@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.NetherPortalBlock;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
@@ -46,7 +48,17 @@ public class GLOWINGOBIDIMPortalBlock extends NetherPortalBlock {
 		}
 	}
 
-	@Override /* failed to load code for net.minecraft.world.level.block.NetherPortalBlock */
+	@Override
+	public BlockState updateShape(BlockState p_54928_, Direction p_54929_, BlockState p_54930_, LevelAccessor p_54931_, BlockPos p_54932_,
+			BlockPos p_54933_) {
+		Direction.Axis direction$axis = p_54929_.getAxis();
+		Direction.Axis direction$axis1 = p_54928_.getValue(AXIS);
+		boolean flag = direction$axis1 != direction$axis && direction$axis.isHorizontal();
+		return !flag && !p_54930_.is(this) && !(new GLOWINGOBIDIMPortalShape(p_54931_, p_54932_, direction$axis1)).isComplete()
+				? Blocks.AIR.defaultBlockState()
+				: super.updateShape(p_54928_, p_54929_, p_54930_, p_54931_, p_54932_, p_54933_);
+	}
+
 	@OnlyIn(Dist.CLIENT)
 	@Override
 	public void animateTick(BlockState state, Level world, BlockPos pos, RandomSource random) {
